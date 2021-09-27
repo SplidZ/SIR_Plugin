@@ -1,0 +1,25 @@
+########################
+# SIR par CroaBeast   #
+# Déprimé depuis 2004 #
+########################
+# Vous voulez utiliser des caractères Unicode ? Consultez ce site : https://coolsymbol.com
+
+##### Placeholders internes:
+# - {ARG}: obtient le mauvais argument lors de l'utilisation d'une commande dans "wrong-arg"
+# - {PERM}: obtient le nœud d'autorisation manquant dans "no-permission"
+
+# L'utilisation du préfixe central dans ce fichier .yml fonctionnera UNIQUEMENT sur un joueur
+# à l'aide d'une commande, mais pas lorsque la console utilise une commande.
+
+# Cela sera inséré dans ces lignes avec <P> ou une chaîne de préfixe-dans-lang.
+main-prefix: ' &e&lSIR &8>&#AAAAAA'
+reload: '<P> Tous les fichiers .yml ont été rechargés avec succès.'
+no-permission: '<P> &7Vous n''avez pas la permission &c{PERM} &7pour utiliser cette commande.'
+wrong-arg: '<P> &7L''argument &c{ARG} &7est invalide ou n''existe pas.'
+
+# Le menu d'aide de la commande /sir, peut-être que dans un futur j'ajouterai plus d'arguments...
+aide principale :
+  - '<C>&8----------&r &e&lSIR &7v {VERSION} &8----------&r'
+  - '  &7- &b/sir&7: La commande principale du plugin.'
+  - '  &7- &b/sir &3reload&7: recharge tous les fichiers.'
+  - '<C>&8----------------------------------------&r'
